@@ -1,0 +1,30 @@
+.sectionTwo {
+    width: 100%;
+    background-image: linear-gradient(180deg, #37b0c3 0%, #162566 100%);
+    padding: 5vh 12vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sectionTwo .image {
+    width: 30vw;
+    min-width: 280px;
+    margin-top: -18vh; /* Отрицательный отступ для выхода за рамки */
+    margin-right: 10vw;
+}
+
+@media (max-width: 426px) {
+    .sectionTwo {
+        flex-direction: column; /* Меняем направление на вертикальное */
+        align-items: center;
+        padding: 5vh 5vw; /* Уменьшаем отступы */
+    }
+
+    .sectionTwo .image {
+        width: 80vw; /* Увеличиваем ширину картинки на маленьких экранах */
+        margin: 0; /* Убираем отрицательный отступ */
+    }
+}

@@ -1,0 +1,36 @@
+.sectionFour {
+    background: transparent;
+    padding: 100px 12vw;
+    text-align: center;
+}
+
+.sectionFour-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(180deg, #37b0c3 0%, #162566 100%);
+    padding: 4vh 0 7vh;
+}
+
+h2:where(.css-dev-only-do-not-override-7ny38l).ant-typography {
+    margin: 12px 0;
+    color: white;
+    font-weight: bold;
+}
+
+span:where(.css-dev-only-do-not-override-7ny38l).ant-typography {
+    color: white;
+    font-size: 16px;
+}
+
+@media (max-width: 426px) {
+    .sectionFour {
+        padding: 5vh 3vw;
+    }
+
+    .sectionFour-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 4vh 3vw 7vh;
+    }
+}

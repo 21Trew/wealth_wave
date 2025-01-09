@@ -1,0 +1,26 @@
+.sectionFive {
+    background-image: linear-gradient(180deg, #37b0c3 0%, #162566 100%);
+    padding: 5vh 12vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.ant-typography {
+    z-index: 1;
+}
+
+.crab-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    z-index: 0;
+    margin-top: -30px;
+}
+
+.crab {
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+}
