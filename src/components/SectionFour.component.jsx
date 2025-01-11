@@ -9,8 +9,13 @@ function SectionFour() {
 
             <Layout className={'sectionFour-cards'} >
                 <div>
-                    <Typography.Title level={2}>Section 4 Subtitle 1:</Typography.Title>
-                    <Typography.Text>
+                    <Typography.Title
+                        level={2}
+                        style={{color: 'white', margin: '12px 0', fontWeight: 'bold'}}
+                    >
+                        Section 4 Subtitle 1:
+                    </Typography.Title>
+                    <Typography.Text style={{color: 'white', fontSize: '16px'}}>
                         Lorem ipsum odor amet, consectetuer adipiscing elit.
                         Ante facilisis non taciti facilisi rutrum felis.
                         Egestas libero accumsan vestibulum purus nostra.
@@ -18,8 +23,13 @@ function SectionFour() {
                     </Typography.Text>
                 </div>
                 <div>
-                    <Typography.Title level={2}>Section 4 Subtitle 2:</Typography.Title>
-                    <Typography.Text>
+                    <Typography.Title
+                        level={2}
+                        style={{color: 'white', margin: '12px 0', fontWeight: 'bold'}}
+                    >
+                        Section 4 Subtitle 2:
+                    </Typography.Title>
+                    <Typography.Text style={{color: 'white', fontSize: '16px'}}>
                         Lorem ipsum odor amet, consectetuer adipiscing elit.
                         Ante facilisis non taciti facilisi rutrum felis.
                         Egestas libero accumsan vestibulum purus nostra.
@@ -27,8 +37,13 @@ function SectionFour() {
                     </Typography.Text>
                 </div>
                 <div>
-                    <Typography.Title level={2}>Section 4 Subtitle 3:</Typography.Title>
-                    <Typography.Text>
+                    <Typography.Title
+                        level={2}
+                        style={{color: 'white', margin: '12px 0', fontWeight: 'bold'}}
+                    >
+                        Section 4 Subtitle 3:
+                    </Typography.Title>
+                    <Typography.Text style={{color: 'white', fontSize: '16px'}}>
                         Lorem ipsum odor amet, consectetuer adipiscing elit.
                         Ante facilisis non taciti facilisi rutrum felis.
                         Egestas libero accumsan vestibulum purus nostra.
