@@ -1,6 +1,7 @@
 import { Button, Layout, Typography } from "antd";
-import React from "react";
 import { useNavigate } from "react-router-dom";
+
+import fishes from '../assets/fishes.png';
 
 function SectionThree() {
     const navigate = useNavigate();
@@ -13,7 +14,7 @@ function SectionThree() {
         <Layout
             style={{
                 height: '100%',
-                background: 'url(https://esporte-br77.com/wp-content/uploads/2024/07/nj-1.png) 50% 50% no-repeat',
+                background: `url(${fishes}) 50% 50% no-repeat`,
                 backgroundSize: 'cover',
                 marginTop: '100px',
                 padding: '16vh 12vw',

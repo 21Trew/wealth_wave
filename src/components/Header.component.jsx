@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {Menu, Image, Layout, Col, Row} from 'antd';
 import { useNavigate } from 'react-router-dom';
 
