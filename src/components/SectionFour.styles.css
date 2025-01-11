@@ -10,6 +10,7 @@
     justify-content: space-around;
     background-image: linear-gradient(180deg, #37b0c3 0%, #162566 100%);
     padding: 4vh 0 7vh;
+    color: white;
 }
 
 h2:where(.css-dev-only-do-not-override-7ny38l).ant-typography {
